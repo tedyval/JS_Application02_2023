@@ -1,0 +1,20 @@
+{
+  "name": "softterest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha tests",
+    "start": "http-server -a localhost -p 3000 -P http://localhost:3000?"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.4.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "http-server": "^14.1.1",
+    "mocha": "^8.15.0",
+    "playwright-chromium": "^1.31.2"
+  }
+}
