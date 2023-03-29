@@ -225,7 +225,6 @@ describe('E2E tests', function () {
       ]);
 
       const postData = JSON.parse(response.request().postData());
-      console.log(postData);
       expect(postData.title).to.equal(mock.title);
       expect(postData.description).to.equal(mock.description);
       expect(postData.imageURL).to.equal(mock.img);
