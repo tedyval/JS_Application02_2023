@@ -42,7 +42,7 @@ export function showRegister(ctx){
 
       console.log(formData);
       let result = Object.fromEntries(formData);
-      debugger
+      
       if(result.email == "" || result.password == ""){
         return alert("All fields should be fulfilled")
       }
